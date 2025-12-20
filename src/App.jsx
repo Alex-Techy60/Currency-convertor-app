@@ -22,14 +22,15 @@ function App() {
 
   const convert = () => {
     if (!currencyInfo[to]) return;
-    setConvertedAmount(amount * currencyInfo[to]);
+    const result = (amount * currencyInfo[to]);
+    setConvertedAmount(result);
   }
 
   return (
         <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
             style={{
-                backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+                backgroundImage: `url('https://img.freepik.com/premium-photo/frame-one-hundred-dollar-bills-with-copy-space-mock-up-wood-background_34259-111.jpg?semt=ais_hybrid&w=740&q=80')`,
             }}
         >
             <div className="w-full">
