@@ -22,22 +22,6 @@ A simple and clean **Currency Converter** built using **React** that converts be
 - **Tailwind CSS**
 - **Fetch API**
 
----
-
-## 📁 Project Structure
-
-src/
-│
-├── components/
-│ ├── InputBox.jsx
-│ └── Index.js
-│
-├── hooks/
-│ └── useCurrencyInfo.js
-│
-├── App.jsx
-└── main.jsx
-
 
 ---
 
@@ -115,7 +99,7 @@ npm run dev
 
 👨‍💻 Author
 
-Alex (Sugyan Singh)
+Alex McDominey
 Built as a React mini project to strengthen frontend fundamentals 🚀
 
 ⭐ If you liked this project, feel free to star the repo!

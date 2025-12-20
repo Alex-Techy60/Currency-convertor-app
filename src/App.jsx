@@ -75,6 +75,17 @@ function App() {
                     </form>
                 </div>
             </div>
+            <div className="absolute bottom-4 w-full flex justify-center">
+                <div className="px-4 py-1.5 rounded-full bg-gray-700/90 backdrop-blur-sm text-sm text-white hover:text-white transition">
+                    Made with <span className="text-purple-400">💜</span> by{" "}
+                    <span className="font-semibold">Alex McDominey</span>
+                </div>
+            </div>
+
+
+
+
+
         </div>
     );
 }
