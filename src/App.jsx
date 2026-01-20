@@ -82,11 +82,6 @@ function App() {
                     <span className="font-semibold">Alex McDominey</span>
                 </div>
             </div>
-
-
-
-
-
         </div>
     );
 }
